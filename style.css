@@ -29,8 +29,8 @@
         
 .container .images .reactjs-image:hover{
     border: none;
-    transition: filter 300ms;
-    filter: drop-shadow(0 0 2em #646cffaa);
+    transition: filter 500ms;
+    filter: drop-shadow(0 0 2em #35c8f1aa);
     transition: 0.1s ease 0.1s;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .container .images .vite-image:hover {
-    filter: drop-shadow(0 0 2em #35c8f1aa);
+    filter: drop-shadow(0 0 2em #646cffaa);
     border: none;
     transition: filter 300ms, all 0.5s ease 0.1s;
 }
@@ -70,6 +70,7 @@
     outline:none;
     border: none;
     background-color: #8080804c;
+    user-select: none;
 }
         
 .count-button:hover{

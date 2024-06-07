@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #414141;
+}
+
 .container{
     margin: 100px auto;
     text-align: center;
@@ -34,7 +38,6 @@
     transition: 0.1s ease 0.1s;
 }
 
-
 .container .images .vite-image {
     height: 130px;
     cursor: pointer;
@@ -43,9 +46,8 @@
 .container .images .vite-image:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
     border: none;
-    transition: filter 300ms, all 0.5s ease 0.1s;
+    transition: filter 500ms, all 0.5s ease 0.1s;
 }
-
 
 
 .heading{
@@ -58,6 +60,7 @@
     font-weight: 800;
     font-style: normal;
     padding-right: 30px;
+    color: #fff;
 }
 
 .count-button{
@@ -71,6 +74,8 @@
     border: none;
     background-color: #8080804c;
     user-select: none;
+    background-color: #fff;
+    font-size: 1.1rem;
 }
         
 .count-button:hover{
@@ -80,21 +85,29 @@
 }
 
 .container p{
-    margin: 10px;
-}
-
-.container p{
-    margin: 30px auto;  
-    font-size: 1.1rem;
+    color: #fff;
+    word-spacing: 6px;
+    font-size: 1.3rem;
+    margin: 20px auto;  
 }
 
 .container .last-line{
     margin: 30px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+    color: #fff;
     display: inline-block;
-    width: 500px;
+    width: 680px;
     word-spacing: 5px;
 }
 
+.container .last-line a{
+    color: orange;
+    text-decoration: none;
+}
+
+.container .last-line a:hover{
+    text-decoration: underline;
+}
 
 

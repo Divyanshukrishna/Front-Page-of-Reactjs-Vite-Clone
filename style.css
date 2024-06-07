@@ -72,14 +72,14 @@ body{
     font-weight: 800;
     outline:none;
     border: none;
-    background-color: #8080804c;
+    /* background-color: #8080804c; */
     user-select: none;
-    background-color: #fff;
+    background-color: white;
     font-size: 1.1rem;
 }
         
 .count-button:hover{
-    border: 1px solid red;
+    border: 2px solid red;
     cursor: pointer;
     outline: none;        
 }

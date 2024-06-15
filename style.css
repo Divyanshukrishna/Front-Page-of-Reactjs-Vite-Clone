@@ -18,7 +18,7 @@ body{
     margin-right: 50px;
     height: 130px;
     border: none;
-    animation: rotateCircle 4s infinite linear;
+    animation: rotateCircle 10s infinite linear;
     cursor: pointer;
 }
 

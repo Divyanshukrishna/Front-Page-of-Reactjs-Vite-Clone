@@ -33,7 +33,7 @@ body{
         
 .container .images .reactjs-image:hover{
     border: none;
-    transition: filter 500ms;
+    transition: filter 500ms, all 0.9s ease 0.1s;
     filter: drop-shadow(0 0 2em #35c8f1aa);
     transition: 0.1s ease 0.1s;
 }

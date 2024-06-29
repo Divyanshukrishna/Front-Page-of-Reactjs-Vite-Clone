@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #414141;
+    background-color: #ffffff;
 }
 
 .container{
@@ -60,7 +60,7 @@ body{
     font-weight: 800;
     font-style: normal;
     padding-right: 30px;
-    color: #fff;
+    color: #000 !important;
 }
 
 .count-button{
@@ -68,7 +68,7 @@ body{
     display: inline-block;
     border-radius: 10px;
     padding: 10px;
-    color: #414141;
+    color: #000 !important;
     font-weight: 800;
     outline:none;
     border: none;
@@ -85,7 +85,7 @@ body{
 }
 
 .container p{
-    color: #fff;
+    color: #000 !important;
     word-spacing: 6px;
     font-size: 1.3rem;
     margin: 20px auto;  
@@ -95,7 +95,7 @@ body{
     margin: 30px;
     font-size: 1.5rem;
     text-wrap: nowrap;
-    color: #fff;
+    color: #000 !important;
     display: inline-block;
     width: 680px;
     word-spacing: 5px;
